@@ -1,6 +1,6 @@
 import myimage from "../src/assets/images/finalimage.png";
 import img1 from "./assets/images/portfolio.jpg";
-const logotext = "PRABHAT";
+const logotext = "PRABHAT KUMAR";
 const meta = {
     title: "Prabhat Kumar",
     description: "I’m Prabhat Kumar , Full Stack App Developer in Flutter with Firebase and NodeJs",
@@ -9,76 +9,141 @@ const meta = {
 const introdata = {
     title: "I’m Prabhat Kumar",
     animated: {
-        first: "I love Programming",
-        second: "I code in Dart and Java",
-        third: "I develop mobile apps",
+        first: "Passionate about programming and software development",
+        second: "Proficient in Java, Dart, JavaScript, and C++",
+        third: "Experienced in developing mobile applications using Flutter and building robust backend systems",
     },
-    description: "my diverse experiences and technical expertise make me a well-rounded and adaptable developer. I am eager to leverage my skills to drive innovation and create impactful solutions in the world of technology",
+    description: "My diverse expertise in Flutter development and backend engineering with Node.js positions me as a versatile and adaptable developer. I am driven by a passion for innovation and committed to delivering impactful, high-quality solutions that address complex challenges in the ever-evolving tech landscape.",
     your_img_url: myimage,
 };
 
 const dataabout = {
-    title: "a bit about my self",
-    aboutme: "I am a dedicated and passionate full-stack developer with a strong foundation in both front-end and back-end technologies. My experience at Kirabiz Technology allowed me to play a pivotal role in the development of a food delivery app, showcasing my skills in Flutter and Node.js. This internship not only honed my full-stack development abilities but also provided me with the opportunity to create a practical solution for household food delivery businesses",
+    title: "A Bit About Myself",
+    aboutme: `I am a highly skilled and driven full-stack developer with a B.Tech in Information Technology from the Indian Institute of Information Technology, Una. My expertise lies in mobile application development using Flutter and backend development with Node.js, enabling me to deliver seamless, cross-platform solutions.
+
+    I have a strong foundation in core computer science domains, including Operating Systems, Computer Networks, Database Management Systems (DBMS), Distributed Database Systems, and SQL. These subjects have equipped me with the theoretical and practical knowledge necessary to design efficient and scalable systems.
+
+    In my professional journey, I have developed large-scale applications like a food delivery platform and appointment booking systems, showcasing my ability to integrate technologies like Dart, Firebase, MongoDB, RESTful APIs, and Socket.io. I am passionate about solving complex problems and leveraging cutting-edge technologies to build impactful and user-focused solutions.`,
 };
 const worktimeline = [{
         jobtitle: "Content Developer",
-        where: "Remote",
-        date: "2022",
+        where: "MathonGo",
+        date: "Nov 2022 - Jan 2023",
     },
     {
-        jobtitle: "Full stack app development",
-        where: "Remote",
-        date: "2023",
+        jobtitle: "Full Stack Mobile Application Development",
+        where: "KIRA",
+        date: "April 2023 - Sept 2023",
     },
     {
-        jobtitle: "Flutter Developer",
-        where: "Remote ",
-        date: "2023",
+        jobtitle: "SDE Intern",
+        where: "Svapak",
+        date: "Sept 2023 - Dec 2023",
+    },
+    {
+        jobtitle: "Software Development Intern",
+        where: "Digital Brain Media",
+        date: "Dec 2023 - June 2024",
     },
 ];
 
-const skills = [{
+const skills = [
+    {
         name: "Flutter",
         value: 98,
+    },
+    {
+        name: "Data Structure",
+        value: 92,
+    },
+    {
+        name: "SQL",
+        value: 91,
+    },
+    {
+        name: "Dart",
+        value: 90,
+    },
+    {
+        name: "Java",
+        value: 90,
+    },
+    {
+        name: "C",
+        value: 90,
+    },
+    {
+        name: "C++",
+        value: 89,
+    },
+    {
+        name: "Operating System",
+        value: 88,
+    },
+    {
+        name: "JavaScript",
+        value: 87,
+    },
+    {
+        name: "Mongo DB",
+        value: 86,
+    },
+    {
+        name: "Computer Network",
+        value: 86,
+    },
+    {
+        name: "DBMS",
+        value: 85,
     },
     {
         name: "Node Js",
         value: 85,
     },
     {
-        name: "C++",
-        value: 80,
-    },
-    {
-        name: "Java",
-        value: 60,
-    },
-    {
-        name: "DBMS",
-        value: 76,
+        name: "Web Analytics",
+        value: 84,
     },
 ];
 
-const services = [{
+
+const services = [
+    {
+        title: "Flutter Development",
+        description: "I specialize in developing high-performing, cross-platform mobile applications using Flutter, delivering robust and scalable solutions tailored to user needs.",
+    },
+    {
         title: "UI & UX Design",
-        description: "I excel in UI/UX design, creating intuitive and user-friendly interfaces that enhance the overall user experience.",
+        description: "I create intuitive and visually appealing user interfaces, ensuring seamless and engaging user experiences across applications.",
     },
     {
-        title: "Mobile Apps",
-        description: "I have a strong background in mobile app development, having successfully completed numerous projects in this field.",
+        title: "Backend Development",
+        description: "I have strong expertise in backend development, leveraging technologies such as Node.js, MongoDB, Firebase, SQL, and RESTful APIs to build efficient and scalable systems.",
     },
     {
-        title: "Backend",
-        description: "I possess the capability to work on backend design, utilizing a range of technologies, including Node.js, MongoDB, Firebase, SQL, and PHP.",
-    },
-    {
-        title: "content developer",
-        description: "I have a knack for content development, creating engaging and informative materials.",
+        title: "API Integration & Optimization",
+        description: "I excel in designing, integrating, and optimizing APIs, ensuring smooth data exchange and enhanced performance for various applications.",
     },
 ];
 
-const dataportfolio = [{
+
+const dataportfolio = [
+    {
+        img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrUMaF1phdBJ5FPD-i6vE41PpUJ8O8DfaZGQ&s",
+        description: "Castle Couture Bridal Appointment Booking App brings the elegance and convenience of Castle Couture's services directly to your mobile device. ",
+        link: "https://github.com/Prbhat56/Castle-Couture",
+    },
+    {
+        img: "https://github.com/Prbhat56/SGT-Guard--Application/blob/main/assets/sgt_logo.jpg?raw=true",
+        description: "The SGT Guard Application is a comprehensive solution developed for both iOS and Android platforms using Flutter for booking guard online.",
+        link: "https://github.com/Prbhat56/SGT-Guard--Application",
+    },
+    {
+        img: "https://github.com/Prbhat56/sampad-sevak/blob/master/assets/icon.png?raw=true",
+        description: "Sampad Seva is app developed for providing repair and maintenance services",
+        link: "https://github.com/Prbhat56/sampad-sevak",
+    },
+    {
         img: "https://images.unsplash.com/photo-1615828800321-90dcc1a6e775?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZXllJTIwY2FyZXxlbnwwfHwwfHx8MA%3D%3D",
         description: "I have developed an eyecare app using flutter and machine learning",
         link: "https://github.com/Prbhat56/Eyecare_app21",
@@ -115,7 +180,7 @@ const dataportfolio = [{
     },
     {
         img: "https://media.istockphoto.com/id/1142218956/photo/medical-technology-and-doctor-staff-service-concept.webp?b=1&s=170667a&w=0&k=20&c=9rySKA3DYMMhmqmKl5ySlZvZnu1ExdiHZp3jAm_u58Y=",
-        description: "Currently I am working on this project as an flutter deevloper in the intern and we are building a website where a village people can acess medical facilities online ",
+        description: "I am worked on this project as an flutter deevloper in the intern and we are building a website where a village people can acess medical facilities online ",
         link: "https://github.com/Prbhat56/Doctor_Booking_App",
     },
 
