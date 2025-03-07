@@ -191,8 +191,7 @@ const contactConfig = {
     YOUR_EMAIL: "hendramyuv@gmail.com",
     YOUR_FONE: "+919693525118",
     description: "I am Prabhat Kumar and if you have any query related to development and data structure feel free contact me  ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
+    
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
     YOUR_USER_ID: "user_id",
